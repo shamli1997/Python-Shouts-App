@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
+import Login from "./Login";
 
-class App extends Component {
-  render() {
-    return (
-      <h1>Hi</h1>
-      
-    );
-  }
+function App() {
+  return (
+    <div>
+      <Login />
+    </div>
+  )
 }
+
 
 export default App;
 
